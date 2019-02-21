@@ -5,6 +5,6 @@ if array.length == 1
   return array.join
 elsif array.length == 2 
   return array.join(" and ")
-  binding.pry
-else array.length
+else array.length >= 3
+  return array[-1].insert(0, "and").join(" , ")
 end
