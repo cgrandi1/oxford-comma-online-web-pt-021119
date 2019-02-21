@@ -1,5 +1,6 @@
 require 'pry'
+if array.lenght == 1 
+  return array.join
 
-def oxford_comma(array) 
 binding.pry
 end
